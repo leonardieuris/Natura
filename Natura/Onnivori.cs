@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Natura
 {
-    public abstract class Onnivori : IAnimal<ICibo>, ICibo
+    public class Onnivori : IAnimal<ICibo>
     {
         private string Name;
         public string GetName() => Name;
